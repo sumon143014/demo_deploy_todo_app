@@ -2,7 +2,7 @@
 
 api descriptions:
 
-1. LOGIN [POST]: `/api/login`
+1. <b>LOGIN [POST]:</b> `/api/login`
   required login data:
   these must be included in `request body`
   example:
@@ -17,7 +17,7 @@ api descriptions:
    => LOGIN  usign Authorization token: 
       add `Authorization` token in your header or `x-access-token` you may preceed the token with `Bearer`
 
-2. REGISTER [POST]: `/api/register/`
+2. <b>REGISTER [POST]:</b> `/api/register/`
   required register data:
   these must be included in `request body`
   example:
@@ -31,7 +31,7 @@ api descriptions:
    
    => REGISTER using `Authorization`
       add `Authorization` token in your header or `x-access-token` you may preceed the token with `Bearer`
-3. LGOUT [POST]: `/api/logout` [need to be authenticated first] 
+3. <i> <b> LGOUT [POST]: </b> </i>  `/api/logout` [need to be authenticated first] 
       to end all active `sessions` add these to the `body` of your `POST request`
       ```
       "endAllSession" : true
