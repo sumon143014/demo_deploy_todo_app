@@ -1,6 +1,26 @@
 # demo_deploy_todo_app
 
-api descriptions:
+*Models*
+#### User:
+    {
+      name: String,
+      email: { type: String, unique: true },
+      password: String,
+      tasks: [Task...],
+      tokens: [String...]
+    }
+
+*and the <b>Task</b>..*
+
+     {
+       id: Number,
+       title: String,
+       description: String,
+       isDone: Boolean
+      }
+   
+
+### api descriptions:
 
 1. <b>LOGIN [POST]:</b> `/api/login`
   required login data:
@@ -46,7 +66,9 @@ api descriptions:
       "isDone":"false"
       }
     ```
-      
+
+5. <b> Getting list of all tasks[GET]: </b> `/api/tasks/` *authorization required*
+      you will be returned an array of Task type
 
 ### available routes & allowed METHODS: 
   * `/api/login/`
