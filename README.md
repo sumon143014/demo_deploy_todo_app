@@ -12,7 +12,7 @@ api descriptions:
       "password":"complexPasswords"
       }
       ```
-   
+   after successfull login [not by using previous `token`]  you'll get a new token back.
    
    => LOGIN  usign Authorization token: 
       add `Authorization` token in your header or `x-access-token` you may preceed the token with `Bearer`
