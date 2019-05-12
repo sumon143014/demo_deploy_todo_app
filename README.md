@@ -22,7 +22,7 @@
 
 ### api descriptions:
 
-1. <b>LOGIN [POST]:</b> `/api/login`
+1. <b>LOGIN [POST]:</b> `/api/login/`
   required login data:
   these must be included in `request body`
   example:
@@ -86,4 +86,7 @@
 ## Incase of bugs please open new issue under that tab :) 
 
 ### Task route is under construction 
-  #### update: *Add task is fixed*
+   #### update: 
+        * Add task is fixed
+        * List task is fixed
+
