@@ -36,3 +36,17 @@ api descriptions:
       ```
       "endAllSession" : true
       ```
+
+
+### available routes & allowed routes: 
+  * `/api/login/`
+    * `POST`
+  * `/api/logout` *requires authentication*
+    * `POST`
+  * `/api/register`
+    * `POST`
+  * `/api/tasks` *requires authentication*
+    * `GET`
+    * `POST`
+    * `PATCH`
+    * `DELETE` 
