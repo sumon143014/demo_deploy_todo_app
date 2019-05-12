@@ -38,7 +38,7 @@ api descriptions:
       ```
 
 
-### available routes & allowed routes: 
+### available routes & allowed METHODS: 
   * `/api/login/`
     * `POST`
   * `/api/logout` *requires authentication*
