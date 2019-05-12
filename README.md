@@ -50,3 +50,5 @@ api descriptions:
     * `POST`
     * `PATCH`
     * `DELETE` 
+
+## Incase of bugs please open new issue under that tab :) 
