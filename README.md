@@ -36,7 +36,17 @@ api descriptions:
       ```
       "endAllSession" : true
       ```
-
+4.  <b>Adding Task: [POST]:</b> `/api/tasks/`
+    use this format in your `request body` to insert a task:
+    ```
+    {
+      "id":"anything012345",
+      "title":"Buy apples",
+      "description":"Today need to do this, it's important",
+      "isDone":"false"
+      }
+    ```
+      
 
 ### available routes & allowed METHODS: 
   * `/api/login/`
@@ -54,3 +64,4 @@ api descriptions:
 ## Incase of bugs please open new issue under that tab :) 
 
 ### Task route is under construction 
+  #### update: *Add task is fixed*
