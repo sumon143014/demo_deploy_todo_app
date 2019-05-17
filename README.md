@@ -85,7 +85,7 @@
 
 ## Incase of bugs please open new issue under that tab :) 
 
-### Task route is under construction 
+### Password isn't hashed yet 
    #### update: 
         * Add task is fixed
         * List task is fixed
